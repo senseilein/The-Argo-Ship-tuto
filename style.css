@@ -1,0 +1,57 @@
+body {
+  background-color: hsl(0, 0%, 100%);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  color: rgba(235, 251, 255, 0.973);
+  text-shadow: 1px 1px px hsl(184, 94%, 13%);
+  font-size: 400%;
+  text-align: center;
+  margin: 10% 1% 10% 1%;
+}
+h2 {
+  color: rgba(54, 118, 134, 0.973);
+}
+p {
+  color: rgba(54, 118, 134, 0.973);
+}
+image {
+  max-width: 100%;
+  height: auto;
+}
+section {
+  padding: 20px;
+}
+
+table {
+  border: 1px solid rgba(54, 118, 134, 0.973);
+  padding: 10px;
+}
+
+th {
+  color: rgba(54, 118, 134, 0.973);
+  padding: 5px;
+  position: center;
+}
+
+tr {
+  border: 1px solid rgba(54, 118, 134, 0.973);
+}
+
+td {
+  position: center;
+  padding: 5px;
+}
+#welcome {
+  height: 400px;
+  background-image: url("assets/ship.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
